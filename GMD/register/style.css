@@ -1,0 +1,261 @@
+.register {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.register .div {
+  background-color: #ffffff;
+  background-image: url(./img/09-bugatti-css-golden-era-1.png);
+  background-size: cover;
+  background-position: 50% 50%;
+  width: 1920px;
+  height: 980px;
+  position: relative;
+}
+
+.register .overlap {
+  position: absolute;
+  width: 380px;
+  height: 500px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(255, 255, 255, 0.25) 0px 0px 69px 25px;
+}
+
+.register .back {
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  top: 64px;
+  left: 59px;
+}
+
+.register .rectangle {
+  position: absolute;
+  width: 50px;
+  height: 1px;
+  top: 18px;
+  left: -7px;
+  background-color: var(--variable-collection-FFFFFF);
+  transform: rotate(-45deg);
+}
+
+.register .rectangle-2 {
+  position: absolute;
+  width: 50px;
+  height: 1px;
+  top: 18px;
+  left: -7px;
+  background-color: var(--variable-collection-FFFFFF);
+  transform: rotate(-135deg);
+}
+
+.register .overlap-2 {
+  position: absolute;
+  width: 190px;
+  height: 100px;
+  top: 0;
+  left: 190px;
+}
+
+.register .rectangle-3 {
+  position: absolute;
+  width: 190px;
+  height: 100px;
+  top: 0;
+  left: 0;
+  background-color: #00000026;
+  transform: rotate(180deg);
+  box-shadow: inset 0px 0px 5px #00000026;
+}
+
+.register .text-wrapper {
+  position: absolute;
+  width: 190px;
+  height: 25px;
+  top: 36px;
+  left: 0;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 600;
+  color: #1b1b1b;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  text-decoration: underline;
+}
+
+.register .button-login {
+  position: absolute;
+  width: 150px;
+  height: 50px;
+  top: 350px;
+  left: 115px;
+  background-color: var(--variable-collection-1b1b1b);
+  border-radius: 35px;
+  box-shadow: 0px 5px 15px #0000004c;
+  all: unset;
+  box-sizing: border-box;
+}
+
+.register .text-wrapper-2 {
+  position: absolute;
+  width: 150px;
+  height: 25px;
+  top: 11px;
+  left: 0;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.register .email-username {
+  position: absolute;
+  width: 270px;
+  height: 50px;
+  top: 132px;
+  left: 55px;
+  background-color: #80808040;
+  border-radius: 35px;
+}
+
+.register .text-wrapper-3 {
+  position: absolute;
+  width: 270px;
+  height: 17px;
+  top: 16px;
+  left: 0;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 200;
+  color: #1b1b1b;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.register .frame {
+  top: 206px;
+  position: absolute;
+  width: 270px;
+  height: 50px;
+  left: 55px;
+  background-color: #80808040;
+  border-radius: 35px;
+}
+
+.register .div-wrapper {
+  top: 280px;
+  position: absolute;
+  width: 270px;
+  height: 50px;
+  left: 55px;
+  background-color: #80808040;
+  border-radius: 35px;
+}
+
+.register .continue-with {
+  position: absolute;
+  width: 250px;
+  height: 60px;
+  top: 410px;
+  left: 65px;
+}
+
+.register .apple {
+  position: absolute;
+  width: 26px;
+  height: 30px;
+  top: 30px;
+  left: 163px;
+}
+
+.register .frame-2 {
+  position: absolute;
+  width: 250px;
+  height: 18px;
+  top: 0;
+  left: 0;
+}
+
+.register .text-wrapper-4 {
+  position: absolute;
+  width: 50px;
+  height: 18px;
+  top: -1px;
+  left: 100px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 400;
+  color: #80808080;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.register .line {
+  top: 9px;
+  left: 150px;
+  position: absolute;
+  width: 100px;
+  height: 1px;
+  object-fit: cover;
+}
+
+.register .img {
+  top: 10px;
+  left: 0;
+  position: absolute;
+  width: 100px;
+  height: 1px;
+  object-fit: cover;
+}
+
+.register .google {
+  position: absolute;
+  width: 27px;
+  height: 27px;
+  top: 32px;
+  left: 60px;
+}
+
+.register .facebook {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 30px;
+  left: 110px;
+}
+
+.register .login {
+  position: absolute;
+  width: 190px;
+  height: 100px;
+  top: 0;
+  left: 0;
+  box-shadow: inset 0px 0px 5px #00000026;
+}
+
+.register .text-wrapper-5 {
+  position: absolute;
+  width: 69px;
+  height: 25px;
+  top: 37px;
+  left: 60px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 600;
+  color: #808080;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}

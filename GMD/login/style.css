@@ -1,0 +1,306 @@
+.login {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.login .div {
+  background-color: #ffffff;
+  background-image: url(./img/09-bugatti-css-golden-era-1.png);
+  background-size: cover;
+  background-position: 50% 50%;
+  width: 1920px;
+  height: 980px;
+  position: relative;
+}
+
+.login .overlap {
+  position: absolute;
+  width: 380px;
+  height: 500px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ffffff;
+  box-shadow: 0px 0px 69px 25px #ffffff40;
+}
+
+.login .button-login {
+  position: absolute;
+  width: 150px;
+  height: 50px;
+  top: 350px;
+  left: 115px;
+  background-color: #1b1b1b;
+  border-radius: 35px;
+  box-shadow: 0px 5px 15px #0000004c;
+  all: unset;
+  box-sizing: border-box;
+}
+
+.login .text-wrapper {
+  position: absolute;
+  width: 150px;
+  height: 25px;
+  top: 11px;
+  left: 0;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.login .email-username {
+  position: absolute;
+  width: 270px;
+  height: 50px;
+  top: 132px;
+  left: 55px;
+  background-color: #80808040;
+  border-radius: 35px;
+}
+
+.login .text-wrapper-2 {
+  position: absolute;
+  width: 270px;
+  height: 17px;
+  top: 16px;
+  left: 0;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 200;
+  color: #1b1b1b;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.login .password {
+  height: 77px;
+  top: 206px;
+  left: 55px;
+  position: absolute;
+  width: 270px;
+}
+
+.login .frame {
+  width: 270px;
+  height: 17px;
+  top: 60px;
+  position: absolute;
+  left: 0;
+}
+
+.login .text-wrapper-3 {
+  position: absolute;
+  width: 109px;
+  height: 17px;
+  top: -1px;
+  left: 161px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 400;
+  color: #1b1b1b;
+  font-size: 11px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.login .text-wrapper-4 {
+  position: absolute;
+  width: 146px;
+  height: 17px;
+  top: -1px;
+  left: 0;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 400;
+  color: #1b1b1b;
+  font-size: 11px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.login .div-wrapper {
+  width: 270px;
+  height: 50px;
+  top: 0;
+  background-color: #80808040;
+  border-radius: 35px;
+  position: absolute;
+  left: 0;
+}
+
+.login .continue-with {
+  position: absolute;
+  width: 250px;
+  height: 60px;
+  top: 410px;
+  left: 65px;
+}
+
+.login .apple {
+  position: absolute;
+  width: 26px;
+  height: 30px;
+  top: 30px;
+  left: 163px;
+}
+
+.login .frame-2 {
+  width: 250px;
+  height: 18px;
+  top: 0;
+  position: absolute;
+  left: 0;
+}
+
+.login .text-wrapper-5 {
+  position: absolute;
+  width: 50px;
+  height: 18px;
+  top: -1px;
+  left: 100px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 400;
+  color: #80808080;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.login .line {
+  top: 9px;
+  left: 150px;
+  position: absolute;
+  width: 100px;
+  height: 1px;
+  object-fit: cover;
+}
+
+.login .img {
+  top: 10px;
+  left: 0;
+  position: absolute;
+  width: 100px;
+  height: 1px;
+  object-fit: cover;
+}
+
+.login .google {
+  position: absolute;
+  width: 27px;
+  height: 27px;
+  top: 32px;
+  left: 60px;
+}
+
+.login .facebook {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 30px;
+  left: 110px;
+}
+
+.login .div-wrapper-2 {
+  position: absolute;
+  width: 190px;
+  height: 100px;
+  top: 0;
+  left: 0;
+  background-color: #80808040;
+  box-shadow: inset 0px 0px 5px #00000026;
+}
+
+.login .text-wrapper-6 {
+  position: absolute;
+  width: 69px;
+  height: 25px;
+  top: 37px;
+  left: 60px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 600;
+  color: #1b1b1b;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  text-decoration: underline;
+}
+
+.login .sign-in {
+  height: 100px;
+  top: 0;
+  left: 190px;
+  position: absolute;
+  width: 190px;
+}
+
+.login .overlap-group {
+  position: relative;
+  height: 100px;
+}
+
+.login .rectangle {
+  position: absolute;
+  width: 190px;
+  height: 100px;
+  top: 0;
+  left: 0;
+  transform: rotate(180deg);
+  box-shadow: inset 0px 0px 5px #00000026;
+}
+
+.login .text-wrapper-7 {
+  height: 25px;
+  top: 37px;
+  left: 0;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 600;
+  color: #808080;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  width: 190px;
+}
+
+.login .back {
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  top: 64px;
+  left: 59px;
+}
+
+.login .overlap-2 {
+  position: relative;
+  height: 36px;
+}
+
+.login .rectangle-2 {
+  position: absolute;
+  width: 50px;
+  height: 1px;
+  top: 18px;
+  left: -7px;
+  background-color: var(--variable-collection-FFFFFF);
+  transform: rotate(-45deg);
+}
+
+.login .rectangle-3 {
+  position: absolute;
+  width: 50px;
+  height: 1px;
+  top: 18px;
+  left: -7px;
+  background-color: var(--variable-collection-FFFFFF);
+  transform: rotate(-135deg);
+}
